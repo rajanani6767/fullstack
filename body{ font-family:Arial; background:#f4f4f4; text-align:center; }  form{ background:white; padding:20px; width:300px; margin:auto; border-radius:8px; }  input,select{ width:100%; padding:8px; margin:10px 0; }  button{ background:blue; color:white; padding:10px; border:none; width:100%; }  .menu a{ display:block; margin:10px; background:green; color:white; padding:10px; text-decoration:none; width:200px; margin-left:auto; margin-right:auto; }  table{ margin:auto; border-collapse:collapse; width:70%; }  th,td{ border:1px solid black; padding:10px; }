@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Student Dashboard</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<h2>Student Records</h2>
+
+<table>
+
+<tr>
+<th>Name</th>
+<th>Email</th>
+<th>Department</th>
+<th>DOB</th>
+</tr>
+
+<tr>
+<td>Rahul</td>
+<td>rahul@email.com</td>
+<td>CSE</td>
+<td>2003-05-20</td>
+</tr>
+
+<tr>
+<td>Priya</td>
+<td>priya@email.com</td>
+<td>IT</td>
+<td>2002-11-10</td>
+</tr>
+
+<tr>
+<td>Arjun</td>
+<td>arjun@email.com</td>
+<td>ECE</td>
+<td>2003-03-15</td>
+</tr>
+
+</table>
+
+</body>
+</html>
