@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+
+<style>
+body{
+font-family:Arial;
+background:#f2f2f2;
+text-align:center;
+}
+
+form{
+background:white;
+padding:20px;
+width:300px;
+margin:auto;
+margin-top:120px;
+border-radius:8px;
+}
+
+input{
+width:100%;
+padding:10px;
+margin:10px 0;
+}
+
+button{
+background:green;
+color:white;
+padding:10px;
+border:none;
+width:100%;
+}
+
+#error{
+color:red;
+}
+</style>
+
+<script>
+function validate(){
+
+let user=document.getElementById("username").value;
+let pass=document.getElementById("password").value;
+
+if(user=="" || pass=="")
+{
+document.getElementById("error").innerHTML="All fields required";
+return false;
+}
+
+alert("Login Successful");
+
+return true;
+}
+</script>
+
+</head>
+
+<body>
+
+<form onsubmit="return validate()">
+
+<h2>Login</h2>
+
+<input type="text" id="username" placeholder="Username">
+
+<input type="password" id="password" placeholder="Password">
+
+<button type="submit">Login</button>
+
+<p id="error"></p>
+
+</form>
+
+</body>
+</html>
